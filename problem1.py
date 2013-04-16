@@ -6,7 +6,7 @@
 #
 
 def isMultiple ( num, base ) :
-  if num%base == 0 :
+	if num%base == 0 :
 		return True
 	else :
 		return False
