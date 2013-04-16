@@ -4,7 +4,7 @@
 #
 
 def recursiveFibo ( elem ) :
-  if elem == 0 :
+	if elem == 0 :
 		return 0
 	elif elem == 1 :
 		return 1
