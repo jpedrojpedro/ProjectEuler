@@ -4,7 +4,7 @@
 #
 
 def findLargestPrime ( numero ) :
-    div, num, primes = 1, numero, []
+	div, num, primes = 1, numero, []
 	while num <> 1 :
 		if num % div == 0 :
 			primes.append ( div )
