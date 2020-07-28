@@ -6,10 +6,7 @@
 #
 
 def isMultiple ( num, base ) :
-	if num%base == 0 :
-		return True
-	else :
-		return False
+	return num%base == 0
 
 def sumElemList ( list ) :
 	sum = 0
