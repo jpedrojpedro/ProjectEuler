@@ -29,6 +29,6 @@ def getMultiples ( listNumber, listBase ) :
 numbers = []
 # attencion in range function!!! It works like [0,1000)
 for i in range(0,1000) :
-	numbers.append ( i )
+	numbers.append(i)
 bases = [3, 5]
-print sumElemList ( list( set( getMultiples ( numbers, bases ) ) ) )
+print sumElemList(list(set(getMultiples(numbers,bases))))
